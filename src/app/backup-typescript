@@ -1,0 +1,62 @@
+
+  /************************************* 支持数据配置功能 *************************************/
+  /**
+   * TODO 支持配置列表
+   */
+  loadDataFromLocalStorage() {
+    const left = window.localStorage.getItem('leftData');
+    if (left) {
+      this.leftData = JSON.parse(left);
+    } else {
+      this.leftData = LEFT_DATA;
+    }
+    const right = window.localStorage.getItem('rightData');
+    if (right) {
+      this.rightData = JSON.parse(right);
+    } else {
+      this.rightData = RIGHT_DATA;
+    }
+    const first = window.localStorage.getItem('firstTools');
+    if (first) {
+      this.firstTools = JSON.parse(first);
+    } else {
+      this.firstTools = FIRST_DATA;
+    }
+    const second = window.localStorage.getItem('secondTools');
+    if (second) {
+      this.secondTools = JSON.parse(second);
+    } else {
+      this.secondTools = SECOND_DATA;
+    }
+    const third = window.localStorage.getItem('thirdTools');
+    if (third) {
+      this.thirdTools = JSON.parse(third);
+    } else {
+      this.thirdTools = THIRD_DATA;
+    }
+    const fourth = window.localStorage.getItem('fourthTools');
+    if (fourth) {
+      this.fourthTools = JSON.parse(fourth);
+    } else {
+      this.fourthTools = FOURTH_DATA;
+    }
+    const bottom = window.localStorage.getItem('bottomData');
+    if (bottom) {
+      this.bottomData = JSON.parse(bottom);
+    } else {
+      this.bottomData = COLLECTION_DATA;
+    }
+  }
+
+  /**
+   * TODO 支持配置列表
+   */
+  reWriteDataToLocalStorage() {
+    window.localStorage.setItem('leftData', JSON.stringify(this.leftData));
+    window.localStorage.setItem('rightData', JSON.stringify(this.rightData));
+    window.localStorage.setItem('firstTools', JSON.stringify(this.firstTools));
+    window.localStorage.setItem('secondTools', JSON.stringify(this.secondTools));
+    window.localStorage.setItem('thirdTools', JSON.stringify(this.thirdTools));
+    window.localStorage.setItem('fourthTools', JSON.stringify(this.fourthTools));
+    window.localStorage.setItem('bottomData', JSON.stringify(this.bottomData));
+  }

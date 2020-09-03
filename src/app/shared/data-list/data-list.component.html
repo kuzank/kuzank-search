@@ -1,0 +1,9 @@
+<div class="data-list-container height-100">
+  <div class="tool-box-div" *ngFor="let item of datas">
+    <div class="tool-title">{{ item.title }}</div>
+    <div class="tool-item" *ngFor="let obj of item.list">
+      <span>*</span>
+      <a class="tool-item-link" target="_blank" [href]="obj.link" (click)="open(obj.link)">{{ obj.title }}</a>
+    </div>
+  </div>
+</div>
