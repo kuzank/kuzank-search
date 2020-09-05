@@ -12,6 +12,50 @@
   <component name="ChangeListManager">
     <list default="true" id="5d7d9577-9c83-4c7f-b30f-6d2c2cae3d1b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/backup-typescript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/collection/collection-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/collection/collection-list.component.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/collection/collection-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/data-list/data-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/data-list/data-list.component.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/data-list/data-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/todo-list/todo-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/todo-list/todo-list.component.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/todo-list/todo-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/collection.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/constant.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +80,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/shared/collection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -99,6 +143,8 @@
       <workItem from="1599113174082" duration="229000" />
       <workItem from="1599120411613" duration="6269000" />
       <workItem from="1599144640015" duration="7613000" />
+      <workItem from="1599275718317" duration="5689000" />
+      <workItem from="1599291071078" duration="734000" />
     </task>
     <servers />
   </component>
@@ -153,5 +199,9 @@
     </state>
     <state x="521" y="-809" key="RollbackChangesDialog/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599150922599" />
     <state x="578" y="264" key="RollbackChangesDialog/-1872.23.1872.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599104613148" />
+    <state x="-1445" y="187" width="1174" height="767" key="find.popup" timestamp="1599287120295">
+      <screen x="-1872" y="23" width="1872" height="1057" />
+    </state>
+    <state x="-1445" y="187" width="1174" height="767" key="find.popup/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599287120295" />
   </component>
 </project>

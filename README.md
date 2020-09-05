@@ -1,16 +1,24 @@
-# kuzank search
-Design Search Page Of Your Broswer.
+# kuzank-search
 
-> 🔁 项目同步维护：[Github](https://github.com/kuzank/kuzank-search/) | [Gitee](https://gitee.com/kuzank/kuzank-search/)
->
-> 📖 浏览器访问：[Github Pages](https://kuzank.github.io/kuzank-search/) | [Gitee Pages](http://kuzank.gitee.io/kuzank-search/)
+## Project setup
+```
+yarn install
+```
 
-## page from broswer
-![](https://tva1.sinaimg.cn/large/007S8ZIlly1gidxmon8ckj31h80u0qip.jpg)
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-## 感谢
-特别感谢 [Checkson](https://github.com/Checkson) 的项目 [flex-jsonp](https://github.com/Checkson/flex-jsonp)
+### Compiles and minifies for production
+```
+yarn build
+```
 
-## License
-MIT
+### Lints and fixes files
+```
+yarn lint
+```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

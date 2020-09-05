@@ -23,8 +23,6 @@ export const COLLECTION_DATA = [
       {title: '跟上Java8',link:'https://zhuanlan.zhihu.com/java8'},
       {title: '带你实战Java8',link:'https://zhuanlan.zhihu.com/p/28093183'},
       {title: '了解lambda',link:'https://zhuanlan.zhihu.com/p/28093333'},
-      {title: '',link:''},
-      {title: '',link:''},
     ]
   },
   {
