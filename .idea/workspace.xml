@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7d9577-9c83-4c7f-b30f-6d2c2cae3d1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="5d7d9577-9c83-4c7f-b30f-6d2c2cae3d1b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1599120411613" duration="6269000" />
       <workItem from="1599144640015" duration="7613000" />
       <workItem from="1599275718317" duration="5689000" />
-      <workItem from="1599291071078" duration="1668000" />
+      <workItem from="1599291071078" duration="2049000" />
     </task>
     <servers />
   </component>
@@ -148,10 +144,11 @@
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>
     <state x="422" y="-953" key="CommitChangelistDialog2/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599150570374" />
-    <state x="168" y="-950" width="1305" height="821" key="DiffContextDialog" timestamp="1599151762638">
-      <screen x="-140" y="-1057" width="1920" height="1057" />
+    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog" timestamp="1599293489524">
+      <screen x="-1872" y="23" width="1872" height="1057" />
     </state>
     <state x="168" y="-950" width="1305" height="821" key="DiffContextDialog/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599151762638" />
+    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599293489524" />
     <state x="521" y="-809" key="RollbackChangesDialog" timestamp="1599150922599">
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>

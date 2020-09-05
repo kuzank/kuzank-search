@@ -39,5 +39,6 @@ else
     echo "使用 ssh 公钥部署 gh-pages"
     git push -f git@github.com:kuzank/kuzank-search.git gh-pages
     git push -f git@gitee.com:kuzank/kuzank-search.git gh-pages
+fi
 
 cd "${ROOT_DIR}"
