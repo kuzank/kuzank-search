@@ -2,6 +2,7 @@ export const COLLECTION_DATA = [
   {
     title: 'Java',
     list: [
+      {title: 'Java极客技术学习', link: 'https://www.javajike.com/'},
       {title: '我肝了一个月，为你写出了Java开发手册', link: 'https://juejin.im/post/6844904162065563661'},
       {title: 'Java反射修改final修饰的属性值', link: 'https://www.jianshu.com/p/2d490b0155ad'},
       {title: 'Java程序版权保护解决方案', link: 'https://www.cnblogs.com/duanxz/p/3651242.html'},
@@ -14,6 +15,16 @@ export const COLLECTION_DATA = [
       {title: 'Java设计模式', link: 'http://c.biancheng.net/design_pattern/'},
       {title: '深入解析Java反射（1） - 基础', link: 'https://www.sczyh30.com/posts/Java/java-reflection-1/'},
       {title: '深入理解并发 / 并行，阻塞 / 非阻塞，同步 / 异步', link: 'https://juejin.im/entry/6844903464678457357'}
+    ]
+  },
+  {
+    title: 'Java 8',
+    list: [
+      {title: '跟上Java8',link:'https://zhuanlan.zhihu.com/java8'},
+      {title: '带你实战Java8',link:'https://zhuanlan.zhihu.com/p/28093183'},
+      {title: '了解lambda',link:'https://zhuanlan.zhihu.com/p/28093333'},
+      {title: '',link:''},
+      {title: '',link:''},
     ]
   },
   {

@@ -166,7 +166,6 @@ export const SECOND_DATA = [
         title: 'SpringBoot 中文',
         link: 'https://www.docs4dev.com/docs/zh/spring-boot/2.1.1.RELEASE/reference/boot-documentation.html',
       },
-      {title: 'Java极客技术学习', link: 'https://www.javajike.com/'},
     ],
   },
   {
@@ -189,7 +188,6 @@ export const THIRD_DATA = [
       {title: 'Angular', link: 'https://angular.cn'},
       {title: 'Ng-Zorro', link: 'https://ng.ant.design/docs/introduce/zh'},
       {title: 'Ng-Alain', link: 'https://ng-alain.com'},
-      {title: 'G2Plot', link: 'https://g2plot.antv.vision/'},
     ],
   },
   {
