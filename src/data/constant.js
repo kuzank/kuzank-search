@@ -43,23 +43,11 @@ export const LEFT_DATA = [
       {title: '玹霖志', link: 'https://xujin.org/blog/'},
       {title: '技术世界', link: 'http://www.jasongj.com/'},
       {title: '梦回少年', link: 'http://rann.cc/'},
-      {title: '阿里中间件团队', link: 'http://jm.taobao.org/'}
+      {title: '阿里中间件团队', link: 'http://jm.taobao.org/'},
+      {title: '互联网数据', link: 'http://www.199it.com/'},
+      {title: '人人都是产品经理', link: 'http://www.woshipm.com/'},
     ],
-  },
-  {
-    title: '开源',
-    list: [
-      {title: 'Aooms', link: 'https://gitee.com/cyb-javaer/Aooms'},
-      {title: 'SpringBlade', link: 'https://gitee.com/smallc/SpringBlade'},
-      {
-        title: 'echarts 例子',
-        link: 'https://echarts.apache.org/examples/zh/#chart-type-line',
-      },
-      {title: 'mybatis', link: 'https://mybatis.org/mybatis-3/zh/index.html'},
-      {title: 'mybatis-plus', link: 'https://mybatis.plus'},
-      {title: 'hutool', link: 'https://hutool.cn'},
-    ],
-  },
+  }
 ];
 
 export const RIGHT_DATA = [
@@ -78,10 +66,6 @@ export const RIGHT_DATA = [
         title: '30天精通 RxJS',
         link: 'https://blog.jerry-hong.com/series/rxjs',
       },
-      {
-        title: '持续集成 Travis CI',
-        link: 'http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html'
-      },
       {title: 'Spring Analysis', link: 'https://github.com/seaswalker/spring-analysis'},
       {title: 'SpringBoot Labs', link: 'https://github.com/YunaiV/SpringBoot-Labs'},
     ],
@@ -92,50 +76,33 @@ export const RIGHT_DATA = [
       {title: '阿里巴巴矢量图', link: 'https://www.iconfont.cn/'},
       {title: 'unDraw 插画', link: 'https://undraw.co/illustrations'},
       {title: 'manypixels 插画', link: 'https://www.manypixels.co/gallery/'},
-      {title: '创造师导航', link: 'http://chuangzaoshi.com/'},
       {title: 'Ant Design', link: 'https://ant.design/'},
     ]
   },
   {
-    title: '效率工具',
+    title: '开源',
     list: [
-      {title: 'Teambition', link: 'https://www.teambition.com'},
-      {title: '腾讯文档', link: 'https://docs.qq.com'},
-      {title: 'AirPortal 空投', link: 'https://airportal.cn/'},
-      {title: 'Regular 在线正则', link: 'https://regex101.com/'},
-      {title: 'Nginx Config', link: 'https://www.digitalocean.com/community/tools/nginx'},
-      {title: '互联网数据', link: 'http://www.199it.com/'},
-      {title: 'StackBlitz', link: 'https://stackblitz.com/'}
+      {title: 'Aooms', link: 'https://gitee.com/cyb-javaer/Aooms'},
+      {title: 'SpringBlade', link: 'https://gitee.com/smallc/SpringBlade'},
+      {
+        title: 'echarts 例子',
+        link: 'https://echarts.apache.org/examples/zh/#chart-type-line',
+      },
+      {title: 'mybatis', link: 'https://mybatis.org/mybatis-3/zh/index.html'},
+      {title: 'mybatis-plus', link: 'https://mybatis.plus'},
+      {title: 'hutool', link: 'https://hutool.cn'},
     ],
   },
   {
     title: '面试',
     list: [
-      {
-        title: 'CS-Notes',
-        link: 'https://cyc2018.github.io/CS-Notes/#/README',
-      },
+      {title: 'CS-Notes', link: 'https://cyc2018.github.io/CS-Notes/#/README',},
       {title: 'JavaGuide', link: 'https://snailclimb.gitee.io'},
-      {
-        title: 'Interviews',
-        link: 'https://github.com/kdn251/interviews/blob/master/README-zh-cn.md',
-      },
-      {
-        title: 'advanced-java',
-        link: 'https://doocs.github.io/advanced-java/#/',
-      },
-      {
-        title: '中华石杉Java面试',
-        link: 'https://github.com/shishan100/Java-Interview-Advanced',
-      },
-      {
-        title: 'Java面试题集中营',
-        link: 'https://www.yuque.com/itsaysay/mzsmvg'
-      },
-      {
-        title: '记录各种学习笔记',
-        link: 'https://github.com/ZXZxin/ZXBlog'
-      }
+      {title: 'Interviews', link: 'https://github.com/kdn251/interviews/blob/master/README-zh-cn.md',},
+      {title: 'advanced-java', link: 'https://doocs.github.io/advanced-java/#/',},
+      {title: '中华石杉Java面试', link: 'https://github.com/shishan100/Java-Interview-Advanced',},
+      {title: 'Java面试题集中营', link: 'https://www.yuque.com/itsaysay/mzsmvg'},
+      {title: '记录各种学习笔记', link: 'https://github.com/ZXZxin/ZXBlog'}
     ],
   },
 ];
@@ -148,10 +115,7 @@ export const FIRST_DATA = [
       {title: '思否', link: 'https://segmentfault.com/'},
       {title: 'oschina', link: 'https://www.oschina.net/'},
       {title: 'InfoQ', link: 'https://www.infoq.cn/'},
-      {title: '人人都是产品经理', link: 'http://www.woshipm.com/'},
       {title: '利器', link: 'https://liqi.io/category/liqix/chengbao/'},
-      {title: 'Maven 中央仓库', link: 'https://mvnrepository.com/'},
-      {title: 'Npm 中央仓库', link: 'https://www.npmjs.com/'}
     ]
   },
 ];
@@ -184,16 +148,16 @@ export const SECOND_DATA = [
 export const THIRD_DATA = [
   {
     title: 'Angular',
+    link: 'https://angular.cn',
     list: [
-      {title: 'Angular', link: 'https://angular.cn'},
       {title: 'Ng-Zorro', link: 'https://ng.ant.design/docs/introduce/zh'},
       {title: 'Ng-Alain', link: 'https://ng-alain.com'},
     ],
   },
   {
     title: 'Vue',
+    link: 'https://cn.vuejs.org',
     list: [
-      {title: 'Vue', link: 'https://cn.vuejs.org'},
       {
         title: 'Element',
         link: 'https://element.eleme.cn/#/zh-CN/component/installation',
@@ -205,14 +169,16 @@ export const THIRD_DATA = [
 
 export const FOURTH_DATA = [
   {
-    title: '娱乐 * 视频',
+    title: '效率 * 学习',
     list: [
+      {title: 'Teambition', link: 'https://www.teambition.com'},
+      {title: '腾讯文档', link: 'https://docs.qq.com'},
       {title: 'Bilibili', link: 'https://www.bilibili.com/'},
-      {title: '小滴课堂', link: 'https://xdclass.net/'}
+      {title: '小滴课堂', link: 'https://xdclass.net/'},
     ]
   },
   {
-    title: '翻译',
+    title: '',
     list: [
       {title: '有道翻译', link: 'http://www.youdao.com/'},
       {title: '谷歌翻译', link: 'https://translate.google.cn/'},

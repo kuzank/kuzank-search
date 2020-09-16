@@ -1,26 +1,27 @@
 <template>
-  <div class="collection-list-container d-flex flex-wrap">
-    <div class="" v-for="(item) in datas " :key="item.title" style="margin-right: 12px">
-      <div class="collection-title">{{ item.title }}</div>
-      <ul>
-        <li v-for="(obj) in item.list" :key="obj.title">
-          <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
-        </li>
-      </ul>
+  <div class="tool-list-container">
+    <div class="d-flex flex-wrap">
+      <div v-for="(item) in datas " :key="item.title" style="width: 300px;margin-bottom: 20px">
+        <div class="collection-title">{{ item.title }}</div>
+        <ul>
+          <li v-for="(obj) in item.list" :key="obj.title">
+            <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-
 </template>
 
 <script>
-import {COLLECTION_DATA} from "@/data/collection";
+import {TOOL_DATA} from "@/data/tool";
 
 export default {
-  name: 'Collection',
+  name: 'Tool',
   props: {},
   data() {
     return {
-      datas: COLLECTION_DATA
+      datas: TOOL_DATA
     }
   },
   methods: {}
@@ -39,13 +40,13 @@ export default {
   font-variant: tabular-nums;
 }
 
-.collection-list-container {
+.tool-list-container {
   margin: 0 15px;
   overflow: scroll;
 }
 
 .collection-title {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .tool-item-link {

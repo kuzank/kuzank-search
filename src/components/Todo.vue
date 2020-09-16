@@ -4,7 +4,7 @@
       <div class="collection-title">{{ item.title }}</div>
       <ul>
         <li v-for="(obj) in item.list" :key="obj.title">
-          <a class="tool-item-link" target="_blank" :href="obj.link" @click="open(obj.link)">{{ obj.title }}</a>
+          <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
         </li>
       </ul>
     </div>
@@ -17,11 +17,7 @@ export default {
   props: {
     datas: Array
   },
-  methods: {
-    open(url) {
-      window.location.href = url;
-    }
-  }
+  methods: {}
 }
 </script>
 

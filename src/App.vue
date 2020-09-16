@@ -35,14 +35,22 @@
                       @click="toggleCenterVisiableBtn" style="margin-right: 6px">中
               </el-tag>
               <el-tag class="point" size="small" effect="dark" :type="bottomVisiable ? 'danger' : 'info'"
-                      @click="toggleBottomVisiableBtn" style="margin-right: 6px">下
+                      @click="toggleBottomVisiableBtn" style="margin-right: 6px">TODO
+              </el-tag>
+              <el-tag class="point" size="small" effect="dark" :type="thinkingVisiable ? 'danger' : 'info'"
+                      @click="toggleThinkingVisiableBtn" style="margin-right: 6px">思想
               </el-tag>
               <el-tag class="point" size="small" effect="dark" type="success"
-                      @click="collectionVisiable = true">收藏
+                      @click="collectionVisiable = true" style="margin-right: 6px">文章
+              </el-tag>
+              <el-tag class="point" size="small" effect="dark" type="success"
+                      @click="toolVisiable = true">工具
               </el-tag>
             </div>
           </div>
-          <el-input v-model="searchValue" :clearable="true" autofocus @keydown.enter.native="toggleSearch">
+          <el-input v-model="searchValue" :clearable="true" autofocus
+                    @input="searchValueChange"
+                    @keydown.enter.native="toggleSearch">
             <el-button slot="append" @click="toggleSearch">Search</el-button>
           </el-input>
         </div>
@@ -67,8 +75,14 @@
       </div>
 
       <div class="bottom-container d-flex justify-content-center">
-        <div v-show="bottomVisiable" class="data">
-          <Todo v-bind:datas="bottomData"></Todo>
+        <div class="d-flex justify-content-between" style="width: 800px">
+          <div v-show="bottomVisiable" class="data">
+            <Todo v-bind:datas="bottomData"></Todo>
+          </div>
+
+          <div v-show="thinkingVisiable" class="data">
+            <Todo v-bind:datas="thinkingData"></Todo>
+          </div>
         </div>
       </div>
     </div>
@@ -82,8 +96,17 @@
                direction="ttb"
                append-to-body
                size="100%"
-               :before-close="closeDrawer">
+               :before-close="closeCollectionDrawer">
       <Collection></Collection>
+    </el-drawer>
+
+    <el-drawer title=""
+               :visible.sync="toolVisiable"
+               direction="ttb"
+               append-to-body
+               size="100%"
+               :before-close="closeToolDrawer">
+      <Tool></Tool>
     </el-drawer>
   </div>
 </template>
@@ -103,10 +126,12 @@ import {
 } from "@/data/constant";
 import Todo from "@/components/Todo";
 import Collection from "@/components/Collection";
+import Tool from "@/components/Tool";
+import {THINKINKG_DATA} from "@/data/thinking";
 
 export default {
   name: 'app',
-  components: {Collection, Todo, DataItem},
+  components: {Tool, Collection, Todo, DataItem},
   data() {
     return {
       searchValue: '',
@@ -119,6 +144,8 @@ export default {
       bottomVisiable: true,
       settingVisiable: false,
       collectionVisiable: false,
+      thinkingVisiable: true,
+      toolVisiable: false,
 
       searchItems: SEARCH_ITEMS,
       leftData: LEFT_DATA,
@@ -128,6 +155,7 @@ export default {
       thirdTools: THIRD_DATA,
       fourthTools: FOURTH_DATA,
       bottomData: BOTTON_DATA,
+      thinkingData: THINKINKG_DATA,
     }
   },
   mounted() {
@@ -163,6 +191,9 @@ export default {
       this.searchItemIndex = index;
       window.localStorage.setItem('SearchIndex', index);
     },
+    searchValueChange() {
+      window.localStorage.setItem('SearchValue', this.searchValue);
+    },
     loadSearchValueFromLocalStorage() {
       const str = window.localStorage.getItem('SearchValue');
       if (str) {
@@ -190,6 +221,10 @@ export default {
       if (bottom && bottom === 'false') {
         this.bottomVisiable = false;
       }
+      const thinking = window.localStorage.getItem('thinkingVisiable');
+      if (thinking && thinking === 'false') {
+        this.thinkingVisiable = false;
+      }
     },
     toggleLeftVisiableBtn() {
       this.leftVisiable = !this.leftVisiable;
@@ -207,9 +242,16 @@ export default {
       this.bottomVisiable = !this.bottomVisiable;
       window.localStorage.setItem('bottomVisiable', String(this.bottomVisiable));
     },
-    closeDrawer() {
+    toggleThinkingVisiableBtn() {
+      this.thinkingVisiable = !this.thinkingVisiable;
+      window.localStorage.setItem('thinkingVisiable', String(this.thinkingVisiable));
+    },
+    closeCollectionDrawer() {
       this.collectionVisiable = false;
     },
+    closeToolDrawer() {
+      this.toolVisiable = false;
+    }
   }
 }
 </script>
@@ -222,7 +264,7 @@ export default {
   line-height: 1.5715;
   background-color: #fff;
   font-feature-settings: 'tnum';
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-variant: tabular-nums;
 }
 
@@ -274,10 +316,6 @@ export default {
 }
 
 .content-container {
-}
-
-.data {
-  width: 800px;
 }
 
 .bottom-container {

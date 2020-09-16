@@ -10,7 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d7d9577-9c83-4c7f-b30f-6d2c2cae3d1b" name="Default Changelist" comment="" />
+    <list default="true" id="5d7d9577-9c83-4c7f-b30f-6d2c2cae3d1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Tool.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/thinking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Collection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Collection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DataItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/constant.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -43,13 +56,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/app/shared/collection" />
+      <recent name="$PROJECT_DIR$/src/app/shared/conllection-list" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app/shared/collection" />
-      <recent name="$PROJECT_DIR$/src/app/shared/conllection-list" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -98,7 +112,14 @@
       <workItem from="1599120411613" duration="6269000" />
       <workItem from="1599144640015" duration="7613000" />
       <workItem from="1599275718317" duration="5689000" />
-      <workItem from="1599291071078" duration="2049000" />
+      <workItem from="1599291071078" duration="2239000" />
+      <workItem from="1599294119148" duration="6542000" />
+      <workItem from="1599310076999" duration="600000" />
+      <workItem from="1599440185986" duration="405000" />
+      <workItem from="1599445021331" duration="1963000" />
+      <workItem from="1599530744376" duration="575000" />
+      <workItem from="1599551409345" duration="26000" />
+      <workItem from="1599573387484" duration="742000" />
     </task>
     <servers />
   </component>
@@ -144,19 +165,25 @@
       <screen x="-140" y="-1057" width="1920" height="1057" />
     </state>
     <state x="422" y="-953" key="CommitChangelistDialog2/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599150570374" />
-    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog" timestamp="1599293489524">
+    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog" timestamp="1599300473728">
       <screen x="-1872" y="23" width="1872" height="1057" />
     </state>
     <state x="168" y="-950" width="1305" height="821" key="DiffContextDialog/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599151762638" />
-    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599293489524" />
-    <state x="521" y="-809" key="RollbackChangesDialog" timestamp="1599150922599">
-      <screen x="-140" y="-1057" width="1920" height="1057" />
+    <state x="-1871" y="23" width="1572" height="950" maximized="true" key="DiffContextDialog/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599300473728" />
+    <state x="578" y="264" key="RollbackChangesDialog" timestamp="1599447121222">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="521" y="-809" key="RollbackChangesDialog/-140.-1057.1920.1057/48.23.1632.1027@-140.-1057.1920.1057" timestamp="1599150922599" />
-    <state x="578" y="264" key="RollbackChangesDialog/-1872.23.1872.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599104613148" />
-    <state x="-1445" y="187" width="1174" height="767" key="find.popup" timestamp="1599287120295">
-      <screen x="-1872" y="23" width="1872" height="1057" />
+    <state x="578" y="264" key="RollbackChangesDialog/-1872.23.1872.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599447121222" />
+    <state x="383" y="182" width="1055" height="746" key="find.popup" timestamp="1599530759695">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="-1445" y="187" width="1174" height="767" key="find.popup/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599287120295" />
+    <state x="-1445" y="187" width="1174" height="767" key="find.popup/-1872.23.1872.1057/0.23.1680.1027@-1872.23.1872.1057" timestamp="1599300612272" />
+    <state x="383" y="182" width="1055" height="746" key="find.popup/-1872.23.1872.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599530759695" />
+    <state x="420" y="182" width="1024" height="746" key="find.popup/48.23.1632.1027@48.23.1632.1027" timestamp="1599310153477" />
+    <state x="505" y="250" key="search.everywhere.popup" timestamp="1599445309674">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" key="search.everywhere.popup/-1872.23.1872.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599445309674" />
   </component>
 </project>

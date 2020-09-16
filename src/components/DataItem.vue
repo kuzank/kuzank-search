@@ -1,14 +1,16 @@
 <template>
   <div class="data-list-container height-100">
     <div class="tool-box-div" v-for="(item) in datas" :key="item.title">
-      <div class="tool-title">{{ item.title }}</div>
+      <div class="tool-title" :class="item.link ? 'point color-danger' : ''" v-if="item.title"
+           @click="open(item.link)">
+        {{ item.title }}
+      </div>
       <div class="tool-item" v-for="(obj) in item.list" :key="obj.title">
         <span>*</span>
-        <a class="tool-item-link" target="_blank" :href="obj.link" @click="open(obj.link)">{{ obj.title }}</a>
+        <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -19,7 +21,8 @@ export default {
   },
   methods: {
     open(url) {
-      window.location.href = url;
+      if (url)
+        window.location.href = url;
     }
   }
 }
