@@ -5,6 +5,12 @@ export const COLLECTION_DATA = [
       {title: '跟上Java8', link: 'https://zhuanlan.zhihu.com/java8'},
       {title: '带你实战Java8', link: 'https://zhuanlan.zhihu.com/p/28093183'},
       {title: '了解lambda', link: 'https://zhuanlan.zhihu.com/p/28093333'},
+      {title: 'Stream API快速入门', link: 'https://zhuanlan.zhihu.com/p/28112239'},
+      {title: '函数式编程', link: 'https://zhuanlan.zhihu.com/p/28133818'},
+      {title: '日期和时间实用技巧', link: 'https://zhuanlan.zhihu.com/p/28133858'},
+      {title: '你忽略了的新特性', link: 'https://zhuanlan.zhihu.com/p/28160344'},
+      {title: 'Java8 指南', link: 'https://zhuanlan.zhihu.com/p/33253953'},
+      {title: '数据流指南', link: 'https://zhuanlan.zhihu.com/p/33255035'},
     ]
   },
   {

@@ -83,6 +83,7 @@ export const TOOL_DATA = [
   {
     title: '网盘 * 电影',
     list: [
+      {title: '虫部落', link: 'https://search.chongbuluo.com/'},
       {title: '张大鹏导演', link: 'https://www.xinpianchang.com/u10002513'},
       {title: '大圣盘', link: 'https://www.dashengpan.com/'},
       {title: '疯狂影视搜索', link: 'http://ifkdy.com/'},
@@ -94,18 +95,15 @@ export const TOOL_DATA = [
   {
     title: '小说',
     list: [
-      {title: '人发杀机天地反覆', link:'https://www.booktxt.com/25_25922/'},
       {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
-      {title: '蚁贼', link: 'http://www.biquge.info/62_62626/'},
+      {title: '人发杀机天地反覆', link:'https://www.booktxt.com/25_25922/'},
       {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
       {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
       {title: '举汉', link: 'https://www.biqubao.com/book/32169/'},
+      {title: '上品寒士', link: 'https://www.xbiquge.cc/book/31114/'},
+      {title: '雅骚', link: 'https://www.imiaobige.com/read/61940/'},
       {title: '黑锅', link: 'https://www.feixs.com/Html/8741/Index.html'},
       {title: '余罪', link: 'https://www.duquanben.com/xiaoshuo/13/13695/'},
-      {title: '上品寒士', link: 'https://www.xbiquge.cc/book/31114/'},
-      {title: '清客', link: 'https://www.biquge.com.cn/book/9421/'},
-      {title: '雅骚', link: 'https://www.imiaobige.com/read/61940/'},
-      {title: '丹朱', link: 'https://book.qidian.com/info/1943704'},
     ]
   }
 ]
