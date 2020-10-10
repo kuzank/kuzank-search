@@ -1,15 +1,26 @@
 <template>
-  <div class="collection-list-container d-flex flex-wrap">
-    <div class="" v-for="(item) in datas " :key="item.title" style="margin-right: 12px">
-      <div class="collection-title">{{ item.title }}</div>
-      <ul>
-        <li v-for="(obj) in item.list" :key="obj.title">
-          <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
-        </li>
-      </ul>
+  <div class="collection-list-container d-flex">
+    <div class="width-30"></div>
+    <div class="width-10">
+      <div class="d-flex border border-radius-4" @click="showAll = true" style="margin: 6px 0;">
+        <div class="-title point color-danger" style="padding: 2px"> 全部</div>
+      </div>
+      <div class="d-flex border border-radius-4" v-for="(item) in datas " :key="item.title" style="margin: 6px 0;">
+        <div class="-title point" style="padding: 2px">{{ item.title }}</div>
+      </div>
+    </div>
+    <div class="flex-1 overflow-auto" style="margin-left: 30px">
+      <div v-for="(item) in datas " :key="item.title" style="margin-right: 12px"
+           v-show="showAll || item.title == selectedIndex">
+        <div class="collection-title">{{ item.title }}</div>
+        <ul>
+          <li v-for="(obj) in item.list" :key="obj.title">
+            <a class="tool-item-link" :href="obj.link">{{ obj.title }}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -20,7 +31,9 @@ export default {
   props: {},
   data() {
     return {
-      datas: COLLECTION_DATA
+      showAll: true,
+      selectedIndex: null,
+      datas: COLLECTION_DATA,
     }
   },
   methods: {}
@@ -41,11 +54,16 @@ export default {
 
 .collection-list-container {
   margin: 0 15px;
-  overflow: scroll;
+  /*overflow: scroll;*/
+}
+
+.-title {
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 .collection-title {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .tool-item-link {

@@ -1,7 +1,7 @@
 <template>
-  <div class="tool-list-container">
-    <div class="d-flex flex-wrap">
-      <div v-for="(item) in datas " :key="item.title" style="width: 300px;margin-bottom: 20px">
+  <div class="d-flex justify-content-center">
+    <div class="d-flex flex-wrap" style="width: 1300px">
+      <div v-for="(item) in datas " :key="item.title" style="width: 250px;margin-bottom: 20px">
         <div class="collection-title">{{ item.title }}</div>
         <ul>
           <li v-for="(obj) in item.list" :key="obj.title">
@@ -41,7 +41,6 @@ export default {
 }
 
 .tool-list-container {
-  margin: 0 15px;
   overflow: scroll;
 }
 

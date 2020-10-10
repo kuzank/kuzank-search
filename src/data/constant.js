@@ -41,6 +41,7 @@ export const LEFT_DATA = [
       {title: 'D 的个人博客', link: 'https://88250.b3log.org/'},
       {title: '冷冷沉思录', link: 'https://my.oschina.net/giegie'},
       {title: '玹霖志', link: 'https://xujin.org/blog/'},
+      {title: '胡涂说', link: 'https://hutusi.com/'},
       {title: '技术世界', link: 'http://www.jasongj.com/'},
       {title: '梦回少年', link: 'http://rann.cc/'},
       {title: '阿里中间件团队', link: 'http://jm.taobao.org/'},
