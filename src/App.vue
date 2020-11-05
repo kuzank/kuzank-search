@@ -41,7 +41,7 @@
                       @click="toggleThinkingVisiableBtn" style="margin-right: 6px">思想
               </el-tag>
               <el-tag class="point" size="small" effect="dark" type="success"
-                      @click="collectionVisiable = true" style="margin-right: 6px">文章
+                      @click="collectionVisiable = true" style="margin-right: 6px">收藏
               </el-tag>
               <el-tag class="point" size="small" effect="dark" type="success"
                       @click="toolVisiable = true">工具

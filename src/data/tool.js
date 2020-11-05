@@ -26,6 +26,7 @@ export const TOOL_DATA = [
   {
     title: '效率工具🔧',
     list: [
+      {title: '图片文字识别', link: 'https://app.xunjiepdf.com/ocr/'},
       {title: 'Json Format', link: 'http://json.jsrun.net/'},
       {title: 'JsonCN 解析', link: 'https://www.json.cn/'},
       {title: 'sojson 图片转 Base64', link: 'https://www.sojson.com/image2base64.html'},
@@ -96,7 +97,7 @@ export const TOOL_DATA = [
     title: '小说',
     list: [
       {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
-      {title: '人发杀机天地反覆', link:'https://www.booktxt.com/25_25922/'},
+      {title: '人发杀机天地反覆', link: 'https://www.booktxt.com/25_25922/'},
       {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
       {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
       {title: '举汉', link: 'https://www.biqubao.com/book/32169/'},
