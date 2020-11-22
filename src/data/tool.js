@@ -96,13 +96,18 @@ export const TOOL_DATA = [
   {
     title: '小说',
     list: [
-      {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
-      {title: '人发杀机天地反覆', link: 'https://www.booktxt.com/25_25922/'},
-      {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
-      {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
       {title: '举汉', link: 'https://www.biqubao.com/book/32169/'},
-      {title: '上品寒士', link: 'https://www.xbiquge.cc/book/31114/'},
+      {title: '汉鼎余烟', link: 'https://www.biquge.bz/28498/'},
+      {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
+      {title: '人发杀机天地反覆', link: 'https://www.biquge.com.cn/book/41856/'},
+      {title: '三国纵横之凉州辞', link: 'https://www.boquge.com/book/72215/'},
+      {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
+      {title: '汉祚高门', link: 'http://www.biquge.info/39_39331/'},
+      {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
+      {title: '清客', link: 'http://www.biquge.info/1_1626/'},
       {title: '雅骚', link: 'https://www.imiaobige.com/read/61940/'},
+      {title: '上品寒士', link: 'https://www.xbiquge.cc/book/31114/'},
+      {title: '术修大巫', link: 'https://www.kuxiaoshuo.com/125_125728/'},
       {title: '黑锅', link: 'https://www.feixs.com/Html/8741/Index.html'},
       {title: '余罪', link: 'https://www.duquanben.com/xiaoshuo/13/13695/'},
     ]
