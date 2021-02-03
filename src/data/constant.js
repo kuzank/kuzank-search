@@ -163,6 +163,10 @@ export const THIRD_DATA = [
         title: 'Element',
         link: 'https://element.eleme.cn/#/zh-CN/component/installation',
       },
+      {
+        title: 'Element-Plus',
+        link: 'https://element-plus.gitee.io/',
+      },
       {title: 'Avue', link: 'https://avuejs.com/doc/installation'},
     ],
   }
@@ -175,6 +179,7 @@ export const FOURTH_DATA = [
       {title: 'Teambition', link: 'https://www.teambition.com'},
       {title: '腾讯文档', link: 'https://docs.qq.com'},
       {title: 'Bilibili', link: 'https://www.bilibili.com/'},
+      {title: '语雀', link: 'https://www.yuque.com/'},
       {title: '小滴课堂', link: 'https://xdclass.net/'},
     ]
   },
@@ -204,6 +209,7 @@ export const BOTTON_DATA = [
         title: 'Flex 布局教程：实例篇',
         link: 'http://www.ruanyifeng.com/blog/2015/07/flex-examples.html',
       },
+      {title: '🏹 Work hard，Think different', link: 'https://www.yuque.com/lyxpro/think'}
     ]
   }
 ];

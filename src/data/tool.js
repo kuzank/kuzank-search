@@ -97,10 +97,9 @@ export const TOOL_DATA = [
     title: '小说',
     list: [
       {title: '举汉', link: 'https://www.biqubao.com/book/32169/'},
-      {title: '汉鼎余烟', link: 'https://www.biquge.bz/28498/'},
+      {title: '汉鼎余烟', link: 'https://www.bqg99.cc/book/2016374982/'},
       {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
       {title: '人发杀机天地反覆', link: 'https://www.biquge.com.cn/book/41856/'},
-      {title: '三国纵横之凉州辞', link: 'https://www.boquge.com/book/72215/'},
       {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
       {title: '汉祚高门', link: 'http://www.biquge.info/39_39331/'},
       {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
