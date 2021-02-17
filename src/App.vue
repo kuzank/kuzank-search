@@ -8,7 +8,7 @@
       <div class="header-container d-flex justify-content-around">
         <div class="flex-1"></div>
         <div class="flex-1">
-          <h1 class="logo point">Do You Feel Lucky?</h1>
+          <h1 class="logo point" @click="showSearchTip">Do You Feel Lucky?</h1>
         </div>
         <div class="flex-1 d-flex justify-content-end"></div>
       </div>
@@ -251,6 +251,24 @@ export default {
     },
     closeToolDrawer() {
       this.toolVisiable = false;
+    },
+    showSearchTip(){
+       this.$notify({
+          title: '🔍 搜索技巧',
+          duration: 40000,
+          dangerouslyUseHTMLString: true,
+          message: 
+          '<p>① 精确搜索：双引号</p>' + 
+          '<p>② 条件查询：and / or / 空格 / + / - </p>' +
+          '<p>③ 组合查询：小括号()</p>' + 
+          '<p>④ 文件格式：filetype:关键字</p>' +
+          '<p>⑤ 域名查询：site:关键字</p>' +
+          '<p>⑥ 页面标题：intitle/allintitle</p>' +
+          '<p>⑦ 网页正文：intext/allintext</p>' +
+          '<p>⑧ URL地址：inurl/allinurl</p>' +
+          '<p>🌰 filetype:pdf SEO</p>' +
+          '<p>🚀 Google支持度比较好</p>'
+        });
     }
   }
 }

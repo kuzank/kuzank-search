@@ -101,6 +101,8 @@ export const COLLECTION_DATA = [
       {title: 'advanced-java', link: 'https://doocs.github.io/advanced-java/#/',},
       {title: '中华石杉Java面试', link: 'https://github.com/shishan100/Java-Interview-Advanced',},
       {title: 'Java面试题集中营', link: 'https://www.yuque.com/itsaysay/mzsmvg'},
+      {title: 'Java 工程师进阶知识', link: 'https://doocs.github.io/advanced-java'},
+      {title: 'Java 虚拟机底层原理', link: 'https://doocs.github.io/jvm/'},
       {title: '记录各种学习笔记', link: 'https://github.com/ZXZxin/ZXBlog'}
     ]
   },

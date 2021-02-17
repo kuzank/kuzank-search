@@ -23,6 +23,7 @@ export const LEFT_DATA = [
       {title: 'kuzank', link: 'https://kuzank.github.io/'},
       {title: '阮一峰', link: 'http://www.ruanyifeng.com'},
       {title: 'Zhang Peng', link: 'https://dunwu.github.io/'},
+      {title: 'Xindoo', link: 'https://zxs.io/'},
       {title: 'DunWu', link: 'https://turnon.gitee.io/blog/'},
       {title: '程序员DD', link: 'http://blog.didispace.com'},
       {title: '纯洁的微笑', link: 'http://www.ityouknow.com'},
@@ -103,6 +104,8 @@ export const RIGHT_DATA = [
       {title: 'advanced-java', link: 'https://doocs.github.io/advanced-java/#/',},
       {title: '中华石杉Java面试', link: 'https://github.com/shishan100/Java-Interview-Advanced',},
       {title: 'Java面试题集中营', link: 'https://www.yuque.com/itsaysay/mzsmvg'},
+      {title: 'Java 工程师进阶知识', link: 'https://doocs.github.io/advanced-java'},
+      {title: 'Java 虚拟机底层原理', link: 'https://doocs.github.io/jvm/'},
       {title: '记录各种学习笔记', link: 'https://github.com/ZXZxin/ZXBlog'}
     ],
   },
@@ -117,6 +120,7 @@ export const FIRST_DATA = [
       {title: 'oschina', link: 'https://www.oschina.net/'},
       {title: 'InfoQ', link: 'https://www.infoq.cn/'},
       {title: '利器', link: 'https://liqi.io/category/liqix/chengbao/'},
+      {title: '发现报告', link: 'https://www.fxbaogao.com/'}
     ]
   },
 ];
