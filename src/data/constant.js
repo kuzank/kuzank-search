@@ -1,12 +1,6 @@
 export const SEARCH_ITEMS = [
-  {title: 'Magi', link: 'https://magi.com/search?q='},
-  {title: 'Yandex', link: 'https://yandex.com/search/?text='},
-  {title: '多吉', link: 'https://www.dogedoge.com/results?q='},
   {title: '谷歌', link: 'https://www.google.com/search?q='},
-  {
-    title: '秘迹',
-    link: 'https://mijisou.com/?category_general=on&time_range=&language=zh-CN&pageno=1&q=',
-  },
+  {title: '多吉', link: 'https://www.dogedoge.com/results?q='},
   {title: '百度', link: 'https://www.baidu.com/baidu?ie=utf-8&wd='},
   {title: '必应', link: 'https://cn.bing.com/search?q='},
   {title: '搜狗', link: 'https://www.sogou.com/web?query='},
@@ -14,13 +8,13 @@ export const SEARCH_ITEMS = [
     title: '微信',
     link: 'https://weixin.sogou.com/weixin?type=2&ie=utf8&query=',
   },
+  {title: 'Magi', link: 'https://magi.com/search?q='},
 ];
 
 export const LEFT_DATA = [
   {
     title: '博客',
     list: [
-      {title: 'kuzank', link: 'https://kuzank.github.io/'},
       {title: '阮一峰', link: 'http://www.ruanyifeng.com'},
       {title: 'Zhang Peng', link: 'https://dunwu.github.io/'},
       {title: 'Xindoo', link: 'https://zxs.io/'},
@@ -98,7 +92,7 @@ export const RIGHT_DATA = [
   {
     title: '面试',
     list: [
-      {title: 'CS-Notes', link: 'https://cyc2018.github.io/CS-Notes/#/README',},
+      {title: 'CS-Notes', link: 'http://www.cyc2018.xyz/',},
       {title: 'JavaGuide', link: 'https://snailclimb.gitee.io'},
       {title: 'Interviews', link: 'https://github.com/kdn251/interviews/blob/master/README-zh-cn.md',},
       {title: 'advanced-java', link: 'https://doocs.github.io/advanced-java/#/',},
@@ -115,6 +109,7 @@ export const FIRST_DATA = [
   {
     title: 'WebSite',
     list: [
+      {title: 'kuzank', link: 'https://kuzank.github.io/'},
       {title: '掘金', link: 'https://segmentfault.com/'},
       {title: '思否', link: 'https://segmentfault.com/'},
       {title: 'oschina', link: 'https://www.oschina.net/'},
