@@ -17,6 +17,7 @@ export const LEFT_DATA = [
     list: [
       {title: '阮一峰', link: 'http://www.ruanyifeng.com'},
       {title: 'Zhang Peng', link: 'https://dunwu.github.io/'},
+      {title: 'Floating Cat', link: 'http://lionoggo.com/'},
       {title: 'Xindoo', link: 'https://zxs.io/'},
       {title: 'DunWu', link: 'https://turnon.gitee.io/blog/'},
       {title: '程序员DD', link: 'http://blog.didispace.com'},
@@ -146,6 +147,14 @@ export const SECOND_DATA = [
 ];
 
 export const THIRD_DATA = [
+  {
+    title: 'React',
+    link: 'https://react.docschina.org/tutorial/tutorial.html',
+    list: [
+      {title: 'React 中文文档', link: 'http://caibaojian.com/react/'},
+      {title: 'React Suite', link: 'https://rsuitejs.com/'},
+    ],
+  },
   {
     title: 'Angular',
     link: 'https://angular.cn',
