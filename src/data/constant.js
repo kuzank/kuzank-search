@@ -112,6 +112,7 @@ export const FIRST_DATA = [
     list: [
       {title: 'kuzank', link: 'https://kuzank.github.io/'},
       {title: '掘金', link: 'https://segmentfault.com/'},
+      {title: 'ifanr', link: 'https://www.ifanr.com/'},
       {title: '思否', link: 'https://segmentfault.com/'},
       {title: 'oschina', link: 'https://www.oschina.net/'},
       {title: 'InfoQ', link: 'https://www.infoq.cn/'},
