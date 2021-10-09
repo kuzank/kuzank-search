@@ -19,10 +19,13 @@ export const LEFT_DATA = [
       {title: 'Zhang Peng', link: 'https://dunwu.github.io/'},
       {title: 'Floating Cat', link: 'http://lionoggo.com/'},
       {title: 'Xindoo', link: 'https://zxs.io/'},
+      {title: '寻我', link: 'https://seekbetter.me/'},
+      {title: '徐靖峰', link: 'https://lexburner.github.io/'},
       {title: 'DunWu', link: 'https://turnon.gitee.io/blog/'},
       {title: '程序员DD', link: 'http://blog.didispace.com'},
       {title: '纯洁的微笑', link: 'http://www.ityouknow.com'},
       {title: '江南一点雨', link: 'http://www.javaboy.org'},
+      {title: '小胡子哥的个人网站', link: 'https://www.barretlee.com/'},
       {title: 'Wind Mt', link: 'https://windmt.com'},
       {title: '吕小荣', link: 'https://mednoter.com'},
       {title: '屈定\'s Blog', link: 'https://mrdear.cn'},
@@ -33,6 +36,7 @@ export const LEFT_DATA = [
       {title: '开源实验室', link: 'https://kymjs.com/'},
       {title: '风象南', link: 'https://my.oschina.net/cccyb?tab=popular'},
       {title: '廖雪峰的官方网站', link: 'https://www.liaoxuefeng.com/'},
+      {title: 'BAT的乌托邦', link: 'https://cloud.tencent.com/developer/user/6158873'},
       {title: '魔王不造反', link: 'https://www.zhihu.com/people/biezhi/posts'},
       {title: 'D 的个人博客', link: 'https://88250.b3log.org/'},
       {title: '冷冷沉思录', link: 'https://my.oschina.net/giegie'},
@@ -86,7 +90,7 @@ export const RIGHT_DATA = [
         link: 'https://echarts.apache.org/examples/zh/#chart-type-line',
       },
       {title: 'mybatis', link: 'https://mybatis.org/mybatis-3/zh/index.html'},
-      {title: 'mybatis-plus', link: 'https://mybatis.plus'},
+      {title: 'mybatis-plus', link: 'https://mp.baomidou.com/'},
       {title: 'hutool', link: 'https://hutool.cn'},
     ],
   },
@@ -111,14 +115,24 @@ export const FIRST_DATA = [
     title: 'WebSite',
     list: [
       {title: 'kuzank', link: 'https://kuzank.github.io/'},
-      {title: '掘金', link: 'https://segmentfault.com/'},
-      {title: 'ifanr', link: 'https://www.ifanr.com/'},
-      {title: '思否', link: 'https://segmentfault.com/'},
-      {title: 'oschina', link: 'https://www.oschina.net/'},
-      {title: 'InfoQ', link: 'https://www.infoq.cn/'},
-      {title: '利器', link: 'https://liqi.io/category/liqix/chengbao/'},
-      {title: '发现报告', link: 'https://www.fxbaogao.com/'}
+      {title: 'Program', link: 'http://kuzank.com/Program/'},
+      {title: 'code-diff', link: 'https://kuzank.com/monaco-diff-react/'},
     ]
+  },
+  {
+    title: '',
+    list: [
+      {title: 'Gitee', link: 'https://gitee.com/'},
+      {title: 'Github', link: 'https://github.com/'},
+    ]
+  },
+  {
+    title: '',
+    list: [
+      {title: '有道翻译', link: 'http://www.youdao.com/'},
+      {title: '谷歌翻译', link: 'https://translate.google.cn/'},
+      {title: 'DeePL', link: 'https://www.deepl.com/zh/translator'},
+    ],
   },
 ];
 
@@ -185,19 +199,18 @@ export const FOURTH_DATA = [
   {
     title: '效率 * 学习',
     list: [
-      {title: 'Teambition', link: 'https://www.teambition.com'},
-      {title: '腾讯文档', link: 'https://docs.qq.com'},
       {title: 'Bilibili', link: 'https://www.bilibili.com/'},
       {title: '语雀', link: 'https://www.yuque.com/'},
       {title: '小滴课堂', link: 'https://xdclass.net/'},
+      {title: '阿里云盘', link: 'https://www.aliyundrive.com/'},
     ]
   },
   {
-    title: '',
+    title: '公司',
     list: [
-      {title: '有道翻译', link: 'http://www.youdao.com/'},
-      {title: '谷歌翻译', link: 'https://translate.google.cn/'},
-      {title: 'DeePL', link: 'https://www.deepl.com/zh/translator'},
+      {title: '板栗看板', link: 'https://web.banlikanban.com/'},
+      {title: 'TAPD', link: 'https://www.tapd.cn/my_dashboard'},
+      {title: '腾讯文档', link: 'https://docs.qq.com/'},
     ],
   },
 ];

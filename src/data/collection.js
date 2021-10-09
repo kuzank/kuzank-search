@@ -78,6 +78,7 @@ export const COLLECTION_DATA = [
       {title: 'Spring Boot中使用LDAP来统一管理用户信息', link: 'https://www.jianshu.com/p/c87588d0fde4'},
       {title: 'Spring Boot MyBatis Sql拦截器', link: 'https://www.jianshu.com/p/e6d9afd562b2'},
       {title: 'mybatis interceptor（拦截器） 监控语句执行时间', link: 'https://www.jianshu.com/p/6470cb245f57'},
+      {title: '详细解读 Spring AOP 面向切面编程', link: 'https://juejin.cn/post/6844903976643592205'},
     ],
   },
   {

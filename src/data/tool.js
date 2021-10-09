@@ -12,11 +12,12 @@ export const TOOL_DATA = [
   {
     title: '编程工具🔧',
     list: [
-      {title: 'Kuzank-Search', link: 'http://kuzank.gitee.io/kuzank-search/'},
-      {title: 'Vue Code Diff', link: 'http://kuzank.gitee.io/vue-code-diff/'},
-      {title: 'React Monaco Diff', link: 'http://kuzank.gitee.io/monaco-diff-react/'},
-      {title: 'React Monaco Editor', link: 'http://kuzank.gitee.io/monaco-editor-react/'},
-      {title: 'JSRUN', link: 'http://jsrun.net/'},
+      // {title: 'Kuzank-Search', link: 'http://kuzank.gitee.io/kuzank-search/'},
+      // {title: 'Vue Code Diff', link: 'http://kuzank.gitee.io/vue-code-diff/'},
+      // {title: 'React Monaco Diff', link: 'http://kuzank.gitee.io/monaco-diff-react/'},
+      // {title: 'React Monaco Editor', link: 'http://kuzank.gitee.io/monaco-editor-react/'},
+      {title: 'Url编码',link: 'http://www.jsons.cn/urlencode/'},
+      {title: 'Json Format', link: 'http://json.jsrun.net/'},
       {title: 'Regular 在线正则', link: 'https://regex101.com/'},
       {title: 'Nginx Config', link: 'https://www.digitalocean.com/community/tools/nginx'},
       {title: 'StackBlitz', link: 'https://stackblitz.com/'},
@@ -26,9 +27,8 @@ export const TOOL_DATA = [
   {
     title: '效率工具🔧',
     list: [
+      {title: '草料二维码', link: 'https://cli.im/'},
       {title: '图片文字识别', link: 'https://app.xunjiepdf.com/ocr/'},
-      {title: 'Json Format', link: 'http://json.jsrun.net/'},
-      {title: 'JsonCN 解析', link: 'https://www.json.cn/'},
       {title: 'sojson 图片转 Base64', link: 'https://www.sojson.com/image2base64.html'},
       {title: 'chinaz 图片转 Base64', link: 'https://tool.chinaz.com/tools/imgtobase'},
       {title: 'TinyPng 图片压缩', link: 'https://tinypng.com/'},
@@ -91,24 +91,6 @@ export const TOOL_DATA = [
       {title: '美剧鸟🐦', link: 'http://www.meijuniao.com/'},
       {title: '茶杯狐🦊', link: 'https://www.cupfox.com/'},
       {title: 'BT 种子', link: 'http://www.btma.vip/'},
-    ]
-  },
-  {
-    title: '小说',
-    list: [
-      {title: '举汉', link: 'https://www.biqubao.com/book/32169/'},
-      {title: '汉鼎余烟', link: 'https://www.bxwxorg.com/read/122078/'},
-      {title: '三国之最风流', link: 'https://www.xbiquge.cc/book/8240/'},
-      {title: '人发杀机天地反覆', link: 'https://www.biquge.com.cn/book/41856/'},
-      {title: '拳镇山河', link: 'https://www.xbiquge.cc/book/31006/'},
-      {title: '汉祚高门', link: 'http://www.biquge.info/39_39331/'},
-      {title: '即鹿', link: 'http://www.biqugexs.com/27_27650/'},
-      {title: '清客', link: 'http://www.biquge.info/1_1626/'},
-      {title: '雅骚', link: 'https://www.imiaobige.com/read/61940/'},
-      {title: '上品寒士', link: 'https://www.xbiquge.cc/book/31114/'},
-      {title: '术修大巫', link: 'https://www.kuxiaoshuo.com/125_125728/'},
-      {title: '黑锅', link: 'https://www.feixs.com/Html/8741/Index.html'},
-      {title: '余罪', link: 'https://www.duquanben.com/xiaoshuo/13/13695/'},
     ]
   }
 ]
